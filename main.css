@@ -1,1 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+
+/*font-family: 'Varta', sans-serif;*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varta', sans-serif;
+}
+
+#navBar {
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+div.navComponent {
+    float: left;
+    margin-right: 15px;
+}
+
+#author {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#main {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    margin: 20px;
+    margin-top: 100px;
+    padding: 15px;
+    text-align: center;
+}
+
+#img-div {
+    background-color: white;
+}
+
+#img-caption {
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+#tribute-title {
+    margin: 50px 0px;
+    font-weight: 900;
+}
+
+#tribute-list {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#tribute-list>* {
+    font-size: medium;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 20px 0px;
+}
