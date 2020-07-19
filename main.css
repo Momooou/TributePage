@@ -30,19 +30,23 @@ div.navComponent {
     font-size: 15px;
 }
 
+
+/* 
 #buttons {
     list-style-type: none;
     display: inline-block;
     margin: 0;
     margin-right: 16px;
-}
+} */
 
+
+/* 
 #buttons>* {
     display: inline-block;
     margin-right: 20px;
     padding: 0;
     background-color: white;
-}
+} */
 
 body div ul li a img {
     height: 5%;
